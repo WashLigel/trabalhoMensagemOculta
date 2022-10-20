@@ -1,0 +1,27 @@
+body {
+    background-color: palevioletred;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.cabecah3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
