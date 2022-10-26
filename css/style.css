@@ -1,8 +1,12 @@
 body {
-    background-color: palevioletred;
-    border: 10px solid white;
+    /* background-color: palevioletred; */
+    border: 10px solid rgb(236, 205, 205);
     border-radius: 150px;
-    margin: 10px 400px 
+    margin: 10px 400px;
+    background-image: url(/img/IMGF.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 900px;
+    color: whitesmoke;
 }
 
 header {
@@ -18,7 +22,7 @@ header h1 {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: aqua;
+    background-color: rgb(230, 84, 91);
 
 
 }
@@ -46,17 +50,28 @@ main {
     justify-content: center;
 }
 
-.meio {
+.mid {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.final {
+.end {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-bottom: -130px;
+}
+
+.border {
+    border-radius: 50px;
+    resize: none;
+    padding: 20px;
+}
+
+.incremento{
+    display: none;
+    text-align: center;
 }

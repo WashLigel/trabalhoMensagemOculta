@@ -23,25 +23,27 @@
             <h3 class="cabecah3">Escolha abaixo o tipo de decodificação:</h3>
             <div class="cabeca">
                 <label for="cifraDC">Cifra de César</label>
-                <input type="radio" name="bolinha1" id="cifraDC">
-                <label for="base64">Base 64</label>
-                <input type="radio" name="bolinha1" id="base64">
+                <input type="radio" name="bolinha1" id="cifraDC" onclick="mostraIncremento()">
+                <label for="base64"  >Base 64</label>
+                <input type="radio" name="bolinha1" id="base64" checked onclick="mostraIncremento()" >
             </div>
 
-            <div class=" meio">
+            <div class=" mid">
                 <h4>Escreva sua mensagem:</h4>
-                <textarea name="" id="" cols="50" rows="8"></textarea>
-                <label for="">Escolha a quantidade que deseja incrementar</label>
+                <textarea class="border" name="" id="box1" cols="50" rows="8"></textarea>
+                <div class="incremento" id="incremento">
+                <label for="">Escolha a quantidade que deseja incrementar: </label><br>
                 <input type="number" name="number1" id="number2"></input>
             </div>
-            <div class="final">
-                <label for="codificador">Codificar</label>
-                <input type="radio" name="bolinha1" id="codificador">
+            </div>
+            <div class="end">
+                <label for="codificador" >Codificar</label>
+                <input type="radio" name="bolinha2" id="codificador"checked  onclick="trocaTexto()" >
 
-                <label for="Decodificar">Decodificador</label>
-                <input type="radio" name="bolinha1" id="Decodificar">
-                <button>enviar</button>
-                <textarea name="" id="" cols="50" rows="8"></textarea>
+                <label for="Decodificar" >Decodificar</label>
+                <input type="radio" name="bolinha2" id="Decodificar" onclick="trocaTexto()">
+                <button id="enviar" >Codificar</button>
+                <textarea class="border" name="" id="box2" cols="50" rows="8"></textarea>
             </div>
         </form>
     </main>
