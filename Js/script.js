@@ -26,7 +26,29 @@ function mostraIncremento(){
     }
 }
 
+function cifraBase(){
+    if (base64.checked) {
+        base();   
+    }
+    else{
+        cifra();
 
+    }
+
+}
+function base(){
+    let mensagem = "";
+    if (codificador.checked){
+        mensagem = window.btoa(box1.value); 
+    }
+    else{
+        mensagem = window.atob(box1.value);
+    }
+    box2.innerHTML = mensagem;
+}
+function cifra(){
+
+}
 
 
 
