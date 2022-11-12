@@ -24,25 +24,25 @@
             <div class="cabeca">
                 <label for="cifraDC">Cifra de César</label>
                 <input type="radio" name="bolinha1" id="cifraDC" onclick="mostraIncremento()">
-                <label for="base64"  >Base 64</label>
-                <input type="radio" name="bolinha1" id="base64" checked onclick="mostraIncremento()" >
+                <label for="base64">Base 64</label>
+                <input type="radio" name="bolinha1" id="base64" checked onclick="mostraIncremento()">
             </div>
 
             <div class=" mid">
                 <h4>Escreva sua mensagem:</h4>
                 <textarea class="border" name="" id="box1" cols="50" rows="8"></textarea>
                 <div class="incremento" id="incremento">
-                <label for="">Escolha a quantidade que deseja incrementar: </label><br>
-                <input type="number" name="number1" id="number2"></input>
-            </div>
+                    <label for="">Escolha a quantidade que deseja incrementar: </label><br>
+                    <input type="number" name="number1" id="number2"></input>
+                </div>
             </div>
             <div class="end">
-                <label for="codificador" >Codificar</label>
-                <input type="radio" name="bolinha2" id="codificador"checked  onclick="trocaTexto()" >
+                <label for="codificador">Codificar</label>
+                <input type="radio" name="bolinha2" id="codificador" checked onclick="trocaTexto()">
 
-                <label for="Decodificar" >Decodificar</label>
-                <input type="radio" name="bolinha2" id="Decodificar" onclick="trocaTexto()">
-                <button onclick="cifraBase()" type="button" id="enviar" >Codificar</button>
+                <label for="Decodificar">Decodificar</label>
+                <input type="radio" name="bolinha2" id="decodificar" onclick="trocaTexto()">
+                <button onclick="cifraBase()" type="button" id="enviar">Codificar</button>
                 <textarea class="border" name="" id="box2" cols="50" rows="8"></textarea>
             </div>
         </form>

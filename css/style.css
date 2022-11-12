@@ -13,8 +13,9 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: -100px;
-    
+
 }
+
 header h1 {
     border: 1px solid purple;
     border-radius: 50px;
@@ -26,6 +27,7 @@ header h1 {
 
 
 }
+
 header h1:hover {
     background-color: pink;
 }
@@ -40,7 +42,7 @@ main {
 .cabecah3 {
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -71,7 +73,7 @@ main {
     padding: 20px;
 }
 
-.incremento{
+.incremento {
     display: none;
     text-align: center;
 }
